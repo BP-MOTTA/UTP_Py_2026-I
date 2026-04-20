@@ -1,0 +1,23 @@
+[
+    {
+        "codigo": "C001",
+        "nombre": "Resistencia",
+        "valor": 220,
+        "unidad": "ohm",
+        "cantidad": 5
+    },
+    {
+        "codigo": "C002",
+        "nombre": "Condensador",
+        "valor": 1100,
+        "unidad": "microfaradios",
+        "cantidad": 20
+    },
+    {
+        "codigo": "L001",
+        "nombre": "Inductor",
+        "valor": 10,
+        "unidad": "mH",
+        "cantidad": 3
+    }
+]

@@ -1,0 +1,19 @@
+{
+    "multimetro": {
+        "marca": "Fluke",
+        "modelo": "117",
+        "precision": "0.5%"
+    },
+    "osciloscopio": {
+        "marca": "Rigol",
+        "canales": 2,
+        "frecuencia_mhz": 100
+    },
+    "fuente_voltaje": {
+        "marca": "Agilent",
+        "voltaje": 220,
+        "corriente": 10,
+        "potencia": 1100,
+        "frecuencia": 60
+    }
+}

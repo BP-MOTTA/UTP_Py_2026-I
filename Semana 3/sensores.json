@@ -1,0 +1,15 @@
+{
+    "sensor1": {
+        "tipo": "LM35",
+        "variable": "temperatura",
+        "rango_c": [
+            -55,
+            150
+        ]
+    },
+    "sensor2": {
+        "tipo": "LDR",
+        "variable": "luminosidad",
+        "salida": "analogica"
+    }
+}

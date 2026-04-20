@@ -1,0 +1,7 @@
+{
+    "nombre": "resistencia",
+    "codigo": "R1",
+    "resistencia_ohm": 220,
+    "tolerancia": "5%",
+    "potencia_w": 0.25
+}
