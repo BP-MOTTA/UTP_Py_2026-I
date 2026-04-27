@@ -14,7 +14,7 @@ with open(IN_FILE, "r", encoding="utf-8") as fin, \
         voltajes=[] #los voltajes almancenados.
         bad_ts=bad_value=0 #total de filas con timestamp no valido
         for row in reader:
-            Total+=1 #acumula una fila ya leida.
+            Total=1 #acumula una fila ya leida.
             ts_raw = row.get("timestamp", "").strip() #obtiene el valor del campo "Tiempo" y elimina espacios en blanco
             value_raw = row.get("value", "").strip() #obtiene el valor del campo "voltaje" y elimina espacios en blanco
             #limpiar datos

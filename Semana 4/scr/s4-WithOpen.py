@@ -3,6 +3,7 @@ ROOT=Path(__file__).resolve().parent.parent
 TXT=ROOT/"Datos"/"raw"/"mediciones_200_mixto.txt"
 Salida=ROOT/"Datos"/"processed"/"mediciones_200_procesado_mayor5.txt"
 Salida2=ROOT/"Datos"/"processed"/"mediciones_200_procesado_menores_igual5.txt"
+Salida3=ROOT/"Datos"/"processed"/"mediciones_200.txt"
 print(f"Ruta del programa {ROOT}")
 print(f"Ruta del archivo de texto: {TXT}")
 valores=[]
@@ -26,6 +27,11 @@ with open(TXT, "r", encoding="utf-8") as f:
             print(f"Advertencia: No se pudo convertir '{s}' a un número. Línea ignorada.")
 print(f"Valores leídos: {len(valores)}")
 print(f"Comentarios ignorados: {comentarios}")
+
+
+with open(Salida3, "w", encoding="utf-8") as f:
+    for v in valores:
+        f.write(f"{v}\n")
 
 VMayor=[]
 VMenor=[]
